@@ -4,7 +4,8 @@
   "description": "Used to detect if logging has gone silent. If no logs have occured in the last while it will kill the application.",
   "repository": "ssh://git@github.com:GeorgePhillips/logentries-inactive-autoquit.git",
   "author": "George Phillips <georgepaulphillips@gmail.com>",
-  "private": false,
+  "license": "MIT",
+  "main": "lib/logger.js",
   "dependencies": {
     "logentries": "1.0.2"
   }
